@@ -1,88 +1,73 @@
-JoKenPo
+# JoKenPo
 
-A simple Rock-Paper-Scissors (JoKenPo) game built in Java (or Kotlin / using Gradle) — a fun little project for practicing game logic and app structure.
+A simple **Rock-Paper-Scissors** (JoKenPo) game built in Java — a fun little project for practicing game logic and app structure.
 
-Table of Contents
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation & Running](#installation--running)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
 
-About
-
-Features
-
-Tech Stack
-
-Getting Started
-
-Prerequisites
-
-Installation & Running
-
-Usage
-
-Project Structure
-
-Contributing
-
-License
-
-Contact
-
-About
-
+## About
 This project implements the classic Rock-Paper-Scissors (JoKenPo) game. Players can choose their move, compare with the computer’s move, and see who wins each round. It's a small but illustrative project to show program logic, decision branching, and user interaction.
 
-Features
+## Features
+- Play Rock, Paper, or Scissors against the computer  
+- Simple game logic (win / lose / tie)  
+- Random computer move generation  
+- Basic console input/output  
+- Can be extended with more features (score tracking, rounds, better UI)
 
-Play Rock, Paper, or Scissors against the computer
+## Tech Stack
+| Layer | Technology / Tool |
+|---|---|
+| Language | Java |
+| Build System | Gradle (Kotlin DSL) |
+| IDE | IntelliJ IDEA (recommended) |
 
-Simple game logic (win / lose / tie)
+## Getting Started
 
-Random computer move generation
+### Prerequisites
+- Java JDK (8, 11, or later)  
+- Gradle (or use the included Gradle Wrapper)  
+- (Optional) IntelliJ IDEA, Eclipse, or VS Code with Java support  
 
-Basic console (or GUI) input/output
+### Installation & Running
 
-Can be extended with more features (score tracking, rounds, better UI)
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/RutayisireLucien/JoKenPo.git
+    cd JoKenPo
+    ```
 
-Tech Stack
-Layer	Technology / Tool
-Language	Java (or Kotlin)
-Build System	Gradle (Kotlin DSL)
-IDE settings	.idea folder (for JetBrains IDEs)
-Getting Started
-Prerequisites
+2. **Build the project**
+    ```bash
+    ./gradlew build
+    ```
 
-Java JDK (version 8, 11, or later)
+3. **Run the app**
+    ```bash
+    ./gradlew run
+    ```
 
-Gradle (or use the included Gradle Wrapper)
+## Usage
+- Run the app and choose **Rock**, **Paper**, or **Scissors**.  
+- The computer makes a random choice.  
+- The winner is determined and displayed.  
+- Repeat to play multiple rounds.
 
-(Optional) An IDE like IntelliJ IDEA, Eclipse, or VS Code with Java support
-
-Installation & Running
-```bash
-git clone https://github.com/username/project.git
-cd project
-npm install
-npm run dev
-```
-
-Usage
-
-When you run the app, you'll be prompted (or see a UI) to pick Rock, Paper, or Scissors.
-
-The computer randomly picks one too.
-
-The choices are compared, and the result (win / lose / tie) is shown.
-
-You can play multiple rounds if you build that functionality in.
-
-Project Structure
-
-Here’s an outline of the project folder layout:
-```bash
+## Project Structure
+```text
 JoKenPo/
-├── .idea/                      # IDE-specific settings (can be ignored or .gitignored)
-├── app/                        # Main application source code
-│   └── <packages, classes>     # e.g. game logic, main class, utilities
-├── build.gradle.kts            # Gradle build script
+├── .idea/                   # IDE-specific settings
+├── app/                     # Main application source code
+│   └── ... (classes, logic)
+├── build.gradle.kts         # Gradle build script
 ├── settings.gradle.kts
 ├── gradle.properties
 ├── gradlew
@@ -90,8 +75,7 @@ JoKenPo/
 └── .gitignore
 ```
 
-Contact
-
+## Contact
 Author: Rutayisire Lucien
 
-GitHub: https://github.com/RutayisireLucien
+GitHub: [RutayisireLucien](https://github.com/RutayisireLucien)
